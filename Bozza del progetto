@@ -1,0 +1,5 @@
+We have a Player who can damage a Boss and the Enemies. The Player has hp,
+dps and defence. There is the Boss who can damage the Player has two
+methods break and grap_move. The Enemies can damge the Player and have
+the same attributs as the Player + break method. The Enemies class inheritance
+the attributs of the Player class. The program will also have external files.
