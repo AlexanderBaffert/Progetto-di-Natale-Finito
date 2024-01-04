@@ -8,7 +8,7 @@ Ci sono Boss fights e anche nemici dietro l'angolo, purtroppo non molti.
 Questo progratto ci sono volute 2 settimane SOLO per il codice, il resto e' stato fatto in 1 o 2 giorni.
 
 
-#Struttura e Incarichi
+# Struttura e Incarichi
 Il progetto e' suddiviso in classi e sottoclassi come prima parte(playe(mercenario,assassino,chierico e guerriero) e enemy)
 
 
