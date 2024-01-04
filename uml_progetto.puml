@@ -1,0 +1,112 @@
+@startuml progetto
+Player<--Guerriero
+Player<--Chierico
+Player<--Mercenario
+Player<--Assassino
+Player"1"--"N"Enemy
+Player"1"--"N"Item
+Class Player{
+    name:string
+    gender:string
+    age:int
+    inventory:list
+    nemico:object
+    --
+    __str__():str
+    add_item()
+    }
+Class Guerriero{
+    vigor:int
+    vitality:int
+    strength:int
+    dexterity:int
+    faith:int
+    hp:int
+    attack:int
+    defence:int
+    --
+    attack():int
+    defence():int
+    heal():int
+    dogde():str
+    level_vigor()
+    level_vitality()
+    level_strength()
+    level_dexterity()
+    level_faith()
+}
+
+Class Chierico{
+    vigor:int
+    vitality:int
+    strength:int
+    dexterity:int
+    faith:int
+    hp:int
+    attack:int
+    defence:int
+    --
+    attack():int
+    defence():int
+    heal():int
+    dogde():str
+    level_vigor()
+    level_vitality()
+    level_strength()
+    level_dexterity()
+    level_faith()
+}
+Class Mercenario{
+    vigor:int
+    vitality:int
+    strength:int
+    dexterity:int
+    faith:int
+    hp:int
+    attack:int
+    defence:int
+    --
+    attack():int
+    defence():int
+    heal():int
+    dogde():str
+    level_vigor()
+    level_vitality()
+    level_strength()
+    level_dexterity()
+    level_faith()
+    }
+Class Assassino {
+    vigor:int
+    vitality:int
+    strength:int
+    dexterity:int
+    faith:int
+    hp:int
+    attack:int
+    defence:int
+    --
+    attack():int
+    defence():int
+    heal():int
+    dogde():str
+    level_vigor()
+    level_vitality()
+    level_strength()
+    level_dexterity()
+    level_faith()
+}
+Class Enemy{
+    hp:int
+    attack:int
+    souls:int
+    type:str
+    player:Player
+    --
+    attack():int
+}
+Class Item {
+    type:str
+    attack:int
+    defence:int
+}
