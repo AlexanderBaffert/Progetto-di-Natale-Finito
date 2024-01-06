@@ -411,7 +411,7 @@ def start_game():
 #external file with the text
 def print_slow(str):
     for char in str:
-        time.sleep(0.01)  # Adjust this value to change the speed of printing
+        time.sleep(0.15)  # 0.l5 is setted for legging the user read the text
         print(char, end='', flush=True)
 def read_and_print(file_path):
     try:
