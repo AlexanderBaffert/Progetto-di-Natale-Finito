@@ -5,7 +5,7 @@ Questo progetto si ambienta su un gioco, Dark soul 3. Abbiamo crato un text game
 Ci sono Boss fights e anche nemici dietro l'angolo, purtroppo non molti.
 
 
-Questo progratto ci sono volute 2 settimane SOLO per il codice, il resto e' stato fatto in 1 o 2 giorni.
+Questo progratto ci sono volute 2 settimane per il codice, il resto e' stato fatto in 1 o 2 giorni.
 
 
 # Struttura e Incarichi
